@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@media (max-aspect-ratio: 7/10) {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+    .joinPage{
+        
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .joinContainer{
+        margin-top: 30vw !important;
+        width: 100% !important;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .joinContainer > img{
+        width:30vm !important;
+    }
+    
+    .joinContainer > h1{
+        
+        font-size: 6vw !important;
+        width: 55vw !important;
+        border-bottom: 0.6vw solid white !important;
+        padding: 3vw !important;  
+    }
+
+
+    #joinInput{
+        width: 55vw !important;
+        padding: 4vw !important;
+        font-size: 4vw !important;
+        margin: 5vw !important;
+    }
+
+    .joinbtn{
+        width: 55vw !important;
+        padding: 4vw !important;
+        font-size: 4vw !important;
+    }
+
+    .chatContainer{
+        background-color: white;
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .header{
+        height: 13% !important;
+    }
+    
+    .header>h2{
+        margin: 8vw !important;
+        font-size: 8vw !important;
+    
+    }
+    
+    .messageBox{
+        /* background-color: aquamarine; */
+        /* width: initial !important; */
+        padding: 3vw !important;
+        margin: 3vw !important;
+        border-radius: 1.5vw !important;
+        font-size: 4vw !important;
+    }
+    
+    
+    
 }
